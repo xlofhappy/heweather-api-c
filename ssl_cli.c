@@ -147,7 +147,7 @@ int ssl_conn(struct ssl_session *session, const char *server, unsigned short por
     }
 
     LOG("SSL:: Handshaking...\n");
-    if (ssl_handshake(sess)) {
+    if (ssl_handshake(session)) {
         ret = -4;
         goto err_out;
     }
