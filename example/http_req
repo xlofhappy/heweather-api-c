@@ -1,0 +1,3 @@
+GET /s6/weather/now?key=8405af7de1a943079b91d5f167236f9c&location=北京 HTTP/1.1
+HOST: free-api.heweather.net
+

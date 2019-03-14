@@ -1,15 +1,18 @@
-# How to get Heweather's data
 # 获取和风天气的天气数据
 
-### 和风天气官网
-
+#### 和风天气官网
 https://www.heweather.com
 
-### 和风天气接口文档
+#### 和风天气接口文档
 （实况数据）https://www.heweather.com/documents/api/s6/weather-now
 
-### 和风天气城市搜索文档
+#### 和风天气城市搜索文档
 https://www.heweather.com/documents/search/find
+
+#### 密钥
+1. 密钥存放在 example/http_req 中，可根据自己的密钥进行替换 key=xxxxxxxxxxxxxx
+2. 如果是按量计费或者付费用户，host 使用 api.heweather.net
+
 
 ## 编译
 
