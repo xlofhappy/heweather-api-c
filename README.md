@@ -10,8 +10,9 @@ https://www.heweather.com
 https://www.heweather.com/documents/search/find
 
 #### 密钥
-1. 密钥存放在 example/http_req 中，可根据自己的密钥进行替换 key=xxxxxxxxxxxxxx
-2. 如果是按量计费或者付费用户，host 使用 api.heweather.net
+1. 请不要使用示例中的密钥，密钥是个人所有，和风官网可以注册免费账户（https://console.heweather.com/register）, 在应用管理里面新建一个应用，应用下新建一个密钥即可使用，免费数据足够测试了，需要更多数据就去购买吧
+2. 密钥存放在 example/http_req 中，可根据自己的密钥进行替换 key=xxxxxxxxxxxxxx
+3. 如果是按量计费或者付费用户，host 使用 api.heweather.net
 
 
 ## 编译
