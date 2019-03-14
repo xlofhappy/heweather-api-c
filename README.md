@@ -31,9 +31,9 @@ export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
 
 ## 举例
 
-下面命令向`https://www.openssl.org`发送HTTP请求，内容为`example/http_req`文件
+下面命令向`free-api.heweather.net`发送HTTP请求，内容为`example/http_req`文件
 
 ``` shell
-./ssl_client www.openssl.org 443 example/http_req
+./ssl_client free-api.heweather.net 443 example/http_req
 
 ```
